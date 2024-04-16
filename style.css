@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 35px;
+    display: flex;
+}
+.logo{
+    width: 180px;
+    height: 90%;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+h1{
+    width: 100%;
+    height: 90%;
+    font-size: 25px;
+    text-align: center;
+}
+h1 sub{
+    font-size: 10px;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    margin-left: 8%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+ul{
+    display: flex;
+    width: 90%;
+    height: 85%;
+   
+    margin-left: 30%;
+    justify-content: center;
+    
+}
+ul li{
+    margin-top: 1.5px;
+    list-style: none;
+    width: 20%;
+   
+    height: 90%;
+    margin-left: 2%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+ul li a{
+    text-decoration: none;
+    width: 80%;
+    height: 90%;
+    text-align: center;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+ul li a:hover{
+    background-color: rgb(81, 81, 214);
+    color: #fff;
+    border-radius: 2px;
+}
+
+.second {
+    min-height: 91.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003;
+}
+
+.container {
+    width: 250px;
+    height: max-content;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+
+}
+
+.search-box {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box {
+    width: 98%;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000;
+    background-color: #e6f5fb;
+    padding: 12px 16px;
+    border-radius: 14px;
+}
+
+.search-box input::placeholder {
+    color: #000;
+    background-color: #e6f5fb;
+    border: 1px solid black;
+
+}
+
+.search-box button {
+    width: 43px;
+    height: 20px;
+    background-color: #95d3db;
+    border-radius: 20%;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 4px;
+
+}
+
+.search-box button:hover {
+    color: #fff;
+    background-color: #ababab;
+}
+
+.weather-body {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 20px;
+}
+
+.weather-body img {
+    width: 35%;
+}
+
+.weather-box {
+    margin-block: 20px;
+    text-align: center;
+}
+
+.weather-box.temperature {
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+}
+
+.weather-box.temperature sup {
+    font-size: 20px;
+    position: absolute;
+    font-weight: 600;
+}
+
+.weather-box .description {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+.weather-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.humidity,
+.wind {
+    display: flex;
+    align-items: center;
+
+}
+
+.humidity {
+    margin-left: 20px;
+}
+
+.wind {
+    margin-left: 20px;
+}
+
+.weather-details i {
+    font-size: 36px;
+}
+
+.weather-details .text {
+    margin-left: 10px;
+    font-size: 14px;
+}
+.text span {
+    font-size: 18px;
+    font-weight: 700;
+}
+.location-not-found{
+    margin-top: 10px;
+    display: none;
+    background-image: url(https://th.bing.com/th/id/R.23e1ca53776737744fb3372d90a2fb9e?rik=AMQ6lBduN%2fEVGA&riu=http%3a%2f%2fbetanews.com%2fwp-content%2fuploads%2f2016%2f01%2fError-404-dark-clouds-warning-page-not-found-e1452851329452.jpg&ehk=midTDKl0t7wxrNCgZjymSj1%2fNWG4XeRbyULpnrOLo%2bU%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1);
+    background-position: center;
+    background-size: cover;
+    height: 130px;
+}
+.error{
+    font-size: medium;
+    width: 40%;
+   
+   padding-top: 17%;
+}
+
+@media(max-width:600px){
+    
+    ul{
+        width: 25px;
+        height: 25px;
+       background-image: url(https://cdn3.iconfinder.com/data/icons/navigation-67/32/Burger_hamburger_menu-512.png);
+       background-position: center;
+       background-size: cover;
+       float: right;
+       margin-left: 60%;
+    }
+    ul li a{
+        display: none;
+    }
+    .logo{
+        width: 400px;
+    }
+
+}
