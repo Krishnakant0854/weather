@@ -182,23 +182,23 @@ ul li a:hover{
 }
 
 .humidity {
-    margin-left: 20px;
+    margin-left: 6px;
 }
 
 .wind {
-    margin-left: 20px;
+    margin-left: 6px;
 }
 
 .weather-details i {
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .weather-details .text {
     margin-left: 10px;
-    font-size: 14px;
+    font-size: 10px;
 }
 .text span {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 700;
 }
 .location-not-found{
